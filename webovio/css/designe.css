@@ -1,0 +1,98 @@
+.design-strategy {
+  display: grid;
+  grid-template-columns: repeat(2, calc(86% / 2));
+  gap: 14%;
+
+}
+
+.design-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(77, 83, 60, 0.9);
+  margin-bottom: 29px;
+}
+
+.design-strategy-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #4D533C;
+  margin-bottom: 35px;
+}
+
+.color {
+  display: inline-block;
+  /* color: #5a5a5a; */
+  /* Цвет текста */
+  background: (255, 215, 35, 0.1);
+  /* Цвет фона */
+  padding: 0px;
+  /* Поля вокруг текста */
+  transition: 1s linear;
+  /* Время изменения */
+}
+
+.color:hover {
+
+  /* color: ; */
+  /* Цвет текста */
+  background: rgba(255, 215, 35, 0.1);
+  /* Цвет фона */
+  /* } */
+}
+
+.design-stategy-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+  margin-bottom: 42px;
+}
+
+.design-quote {
+  padding: 0 8px 60px 40px;
+}
+
+.design-quot-text {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 40px;
+  color: #4D533C;
+  margin-bottom: 50px;
+}
+
+.design-quote-ceo {
+  display: grid;
+  grid-template-columns: 1.2fr 4fr;
+  align-items: center;
+
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+.seo-photo {
+  /* display: block; */
+  border-radius: 50%;
+  border: #4D533C;
+  object-fit: contain;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; */
+  box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+}
+
+.quote-name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #4D533C;
+  padding-bottom: 6px;
+}
+
+.quote-posishion {
+  font-size: 16px;
+  line-height: 24px;
+  color: #152934;
+}

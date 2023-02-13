@@ -1,0 +1,22 @@
+.client-container {
+  display: grid;
+  margin-left: calc((100% - 1110px) / 2);
+  margin-top: -110px;
+  padding: 56px;
+  background-color: #fff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+  margin-bottom: 120px;
+}
+
+.client-logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: auto 65px;
+  align-items: center;
+  padding-right: calc((100% - 1110px) / 2);
+}
+
+.client-img {
+  width: 156px;
+}
